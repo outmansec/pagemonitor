@@ -1,0 +1,12 @@
+config:
+  url:
+    - https://www.baidu.com/
+    - https://www.github.com/
+    - #可配置多个url
+  chrome: /usr/bin/google-chrome #chrome路径
+  timeout: 6 #预警超时时间
+  polling: 10 #轮询时间
+  pushplus:
+    token: xxxxx #pushplus token
+    title: "标题" #pushplus 标题
+    topic: 110 #pushplus 群组

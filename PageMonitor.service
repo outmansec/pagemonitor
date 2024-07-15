@@ -1,0 +1,13 @@
+[Unit]
+Description=PageMonitor
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/app/PageMonitor
+WorkingDirectory=/app/
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
